@@ -19,7 +19,7 @@
    margin-left: 10px;
 }
 .left-side{
-    margin-top: 25px;
+    margin-top: 0px;
     width: 400px;
     height: 200px;
     align-items: center;
@@ -64,4 +64,38 @@
    .left-side p{
      margin-left: 10px;
    }
+}
+@media only screen and (max-width:427px) {
+    .banner{
+        width: 425px;
+        height: 200px;
+     }
+     .right-side img{
+      width: 100px;
+      height: 100px;
+      margin-top: 40px;
+     }
+  
+  
+     .left-side{
+      width: 200px;
+      border: 2px solid red;
+     }
+     .left-side h2{
+      font-size: 18px;
+      margin-left: 10px;
+
+     }
+     .left-side button{
+      height: 20px;
+      font-size: 10px;
+      position: relative;
+      left: 10px;
+     }
+     .left-side p{
+       margin-left: 10px;
+       font-size: 18px;
+       font-weight: 800;
+       margin-top: 25px;
+     }
 }

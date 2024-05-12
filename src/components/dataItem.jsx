@@ -6,7 +6,7 @@ const DataItem = (props) => {
     const{img,oldprice,newprice,name,descript,discount,id}=props;
     const{addCartItem}= useContext(ShopContext);
   return (
-    <div className='main-container'>
+    <div className='image-container'>
       <div className="leftbox">
         <img src={img} alt="" />
         </div>  

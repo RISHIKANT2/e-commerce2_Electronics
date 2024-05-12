@@ -52,3 +52,36 @@
         margin-top: -30px;
     }
 }
+@media only screen and (max-width:427px){
+    .container{
+        width: 140px;
+    }
+
+    .card{
+        width: 170px;
+        height: 240px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card img{
+        height: 120px;
+        margin-top: 5px;
+    }
+    .card-body span{
+        font-size: 9px;
+        margin-right: 0px;
+    }
+    .card-body .old{
+      margin-right: 4px;
+    }
+    .card-title{
+        font-size: 11px;
+        font-weight: 800;
+    }
+    .card-body button{
+        width: 60px;
+        height: 20px;
+        font-size:6px ;
+        margin-top: -30px;
+    }
+}

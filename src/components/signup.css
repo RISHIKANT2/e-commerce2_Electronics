@@ -14,13 +14,16 @@
     background-color: beige;
 }
 .box-2 input{
-    width: 250px;
+    width: 320px;
     height:40px;
-    border-radius: 5px;
+    border-radius: 15px;
     align-items: center;
     padding: 10px;
     margin: auto;
     margin-top: 10px;
+}
+.box-2 input:hover{
+    transform: scale(1.075);
 }
 #submit{
    background-color: rgb(57, 57, 236);
@@ -32,8 +35,9 @@
    align-items: center;
     margin: auto;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
    justify-content: center;
+   width: 150px;
 }
 .box-2 .title1{
     border: 2px solid blue;
@@ -48,6 +52,9 @@
     color: whitesmoke;
     margin-top: 25px;
 
+}
+#submit:hover{
+    background-color: rgb(55, 55, 160);
 }
 p{
     margin: auto;
@@ -65,12 +72,39 @@ p{
         align-items:center;
     }
     .box-2 input{
-        width: 180px;
+        width: 100px;
         height: 30px;
-
+        
     }
     .box-2 .title1{
         width: 80px;
         margin: auto;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:427px) {
+    .box-2{
+        width: 300px;
+        height: 350px;
+        border-radius: 8px;
+    }
+    #submit{
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+        align-items:center;
+    }
+    .box-2 input{
+        width: 280px;
+        height: 28px;
+
+    }
+    .box-2 .title1{
+        width: 100px;
+        margin: auto;
+        height: 30px;
+    }
+    .box-2 .title1:hover{
+        background-color: rgb(139, 139, 236);
     }
 }

@@ -11,38 +11,38 @@
     margin-left: 40px;
     margin-top: 15px;
 }
-.leftbox img{
+.leftbox1 img{
     width: 250px;
     height: 300px;
 }
-.leftbox{
+.leftbox1{
     border-radius: 8px;
 
     
 }
-.rightbox{
+.rightbox1{
     width: 350px;
     margin-left: 20px;
 }
-.rightbox .price{
+.rightbox1 .price{
     width: 250px;
     gap: 4px;
 
 }
-.rightbox h4{
+.rightbox1 h4{
     height: 40px;
     background-color: rgb(226, 227, 228);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.rightbox .price span{
+.rightbox1 .price span{
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.rightbox .price .oldprice{
+.rightbox1 .price .oldprice{
     text-decoration: line-through;
 }
-.discount{
+.discount1{
     margin-left: 10px;
     width: 120px;
     border-radius: 8px;
@@ -50,7 +50,7 @@
     color: whitesmoke;
     margin-top: 20px;
 }
-.description{
+.description1{
     margin-top: 10px;
     background-color: rgb(224, 253, 255);
 }
@@ -60,7 +60,7 @@
     border-radius: 10px;
     border: none;
 }
-@media  screen  and (max-width:380px){
+@media  only screen  and (max-width:380px){
 html,body{
     width: 100%;
     height: 100%;
@@ -74,36 +74,36 @@ html,body{
         margin-left: 5px;
         
     }
-    .leftbox img{
+    .leftbox1 img{
         height: 120px;
         width: 100px;
         margin-top: 6px
     }
-    .leftbox{
-        width: ;
+    .leftbox1{
+        width:120px ;
     }
-    .rightbox{
+    .rightbox1{
       margin-left: 0px;
       width: 140px;
     }
-    .description{
+    .description1{
         font-size: 5px;
         margin-top: 2px;
         margin-bottom: 0px;
     }
-    .rightbox h4{
+    .rightbox1 h4{
         font-size: 9px;
         height: 12px;
         margin-bottom:0px ;
     }
-    .discount{
+    .discount1{
         width: 80px;
         font-size: 6px;
         padding: 2px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .rightbox .price{
+    .rightbox1 .price{
         width: 100px;
         font-size: 7px;
         margin-top: 0px;
@@ -116,11 +116,64 @@ html,body{
         height: 10px;
         margin-top: 0px;
     }
-    .rightbox .price span{
+    .rightbox1 .price span{
         margin-bottom: 0px;
     }
 }
  
-@media  (max-width:975px) {
+@media  only screen and (max-width:427px) {
+    .main-container{
+        width: 425px;
+        height: 200px;
+        margin-left: 0px;
+        border: 2px solid red;
+        
+    }
+    .leftbox1 img{
+        height: 120px;
+        width: 100px;
+        margin-top: 6px;
+        border: 2px solid green;
+    }
+    .leftbox1{
+        width:120px ;
+    }
+    .rightbox1{
+      margin-left: 40px;
+      width: 180px;
+      border: 2px solid black;
+    }
+    .description1{
+        font-size: 5px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+    .rightbox1 h4{
+        font-size: 9px;
+        height: 12px;
+        margin-bottom:0px ;
+    }
+    .discount1{
+        width: 80px;
+        font-size: 6px;
+        padding: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .rightbox1 .price{
+        width: 100px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     
+    .additem{
+        width: 50px;
+        font-size: 6px;
+        height: 10px;
+        margin-top: 0px;
+    }
+    .rightbox1 .price span{
+        margin-bottom: 0px;
+    }
 }

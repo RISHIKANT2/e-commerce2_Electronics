@@ -7,7 +7,7 @@ const Login = () => {
     <div>
         <div className="wholebody">
          <div className="box-3">
-        <div className="title1">
+        <div className="title2">
             <h5>Login-Here</h5>
         </div>
         <input type="text"  placeholder='Username'/><br/>

@@ -13,8 +13,8 @@ const DataItem = (props) => {
 
         <div className="rightbox">
           <h4>{name}</h4>
-          <div className="price">
-            <span className='oldprice'> &#8377;{oldprice}</span><span> &#8377;{newprice}</span>
+          <div className="price1">
+            <span className='oldprice1'> &#8377;{oldprice}</span><span> &#8377;{newprice}</span>
           </div>
           <span className='discount'>Discount: {discount}</span>
           <div className="description">{descript}</div>

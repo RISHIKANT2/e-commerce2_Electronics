@@ -1,0 +1,76 @@
+.wholebody{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid rgb(169, 164, 164);
+    background-color: rgb(169, 164, 164);
+}
+
+.box-2{
+    width: 350px;
+    height: 420px;    
+    margin: auto;
+    margin-top: 120px;
+    padding: 10px;
+    background-color: beige;
+}
+.box-2 input{
+    width: 250px;
+    height:40px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+#submit{
+   background-color: rgb(57, 57, 236);
+   height: 40px;
+   color: whitesmoke;
+   font-weight: 600;
+   font-size:19px ;
+   display: flex;
+   align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+   justify-content: center;
+}
+.box-2 .title1{
+    border: 2px solid blue;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 90px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(76, 76, 249);
+    color: whitesmoke;
+    margin-top: 25px;
+
+}
+p{
+    margin: auto;
+}
+@media only screen and (max-width:380px) {
+    .box-2{
+        width: 200px;
+        height: 300px;
+        border-radius: 8px;
+    }
+    #submit{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        align-items:center;
+    }
+    .box-2 input{
+        width: 180px;
+        height: 30px;
+
+    }
+    .box-2 .title1{
+        width: 80px;
+        margin: auto;
+    }
+}

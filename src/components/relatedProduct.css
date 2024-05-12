@@ -1,0 +1,15 @@
+.realtedContainer{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 60px;
+    
+    
+}
+@media only screen and (max-width:380px) {
+    .realtedContainer{
+        width: 320px;
+    }
+}

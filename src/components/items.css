@@ -20,6 +20,14 @@
     text-decoration: line-through;
     margin-right: 10px;
 }
+.card-body .Add-cart{
+    width: 80px;
+    height: 25px;
+    font-size:10px ;
+    margin-top: -30px;
+    background-color: rgb(34,219,34);
+    border-radius: 10px;
+}
 @media only screen and (max-width:380px) {  
     .container{
         width: 140px;
@@ -45,11 +53,13 @@
     .card-title{
         font-size: 9px;
     }
-    .card-body button{
+    .card-body .Add-cart{
         width: 60px;
         height: 20px;
         font-size:6px ;
         margin-top: -30px;
+        background-color: rgb(34,219,34);
+        border-radius: 10px;
     }
 }
 @media only screen and (max-width:427px){
@@ -78,10 +88,12 @@
         font-size: 11px;
         font-weight: 800;
     }
-    .card-body button{
+    .card-body .Add-cart{
         width: 60px;
         height: 20px;
         font-size:6px ;
         margin-top: -30px;
+        background-color: rgb(34,219,34);
+        border-radius: 10px;
     }
 }
